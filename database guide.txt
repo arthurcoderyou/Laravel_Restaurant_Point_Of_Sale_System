@@ -1,0 +1,20 @@
+User must be a verified customer first before buying
+
+Menu [table]
+  id
+  Name
+  Photo
+  Price
+
+Cart 
+  menu_id
+
+Transaction
+  user_id   => id of the user who ordered
+  cart_id   => menu that is ordered
+  Time of Transaction Order
+  payment_status => ['unpaid','paid']
+  order_type => ['dine_in','take_out']
+  order_status => ['pending','processed']
+  order_delivery_status => ['pending','processed']
+  invoice_id  => proof of payment
